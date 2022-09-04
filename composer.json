@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BenyCode\\Slim\\SlimJadMiddleware\\": "src"
+            "BenyCode\\Slim\\JadMiddleware\\": "src"
         }
     },
 	"config": {
