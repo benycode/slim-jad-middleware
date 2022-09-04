@@ -1,4 +1,4 @@
-# Slim Jad (jsonapi.org) implementation in Slim 4 framework
+# [Jad](https://github.com/oligus/jad) (jsonapi.org) implementation in Slim 4 framework
 
 Simplest way to have JSON:API endpoint in your Slim project
 
@@ -30,10 +30,11 @@ use Doctrine\ORM\Tools\Setup;
 use Doctrine\DBAL\Configuration as DoctrineConfiguration;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\DriverManager;
+use BenyCode\Slim\JadMiddleware\JsonApiMiddleware;
 
 return [
     ......
-  JadApiMiddleware::class => function (ContainerInterface $container): JadApiMiddleware {
+  JsonApiMiddleware::class => function (ContainerInterface $container): JadApiMiddleware {
 		
     $config = Configure::getInstance();
 
@@ -41,7 +42,7 @@ return [
         ->setConfig('strict', true)
         ;
 
-      return new JadApiMiddleware(
+      return new JsonApiMiddleware(
         $container->get(EntityManager::class), 
         $container->get(ResponseFactoryInterface::class),
         $config,
