@@ -12,7 +12,7 @@ use Jad\Configure;
 use Jad\Map\AnnotationsMapper;
 use Doctrine\ORM\EntityManager;
 
-final class JadApiMiddleware implements MiddlewareInterface
+final class JsonApiMiddleware implements MiddlewareInterface
 {
     private EntityManager $entityManager;
 	
