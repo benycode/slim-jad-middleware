@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Middleware;
+namespace BenyCode\Slim\JadMiddleware;
 
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
