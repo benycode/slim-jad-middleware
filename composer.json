@@ -1,0 +1,28 @@
+{
+    "name": "benycode/slim-jad-middleware",
+    "description": "Jad (jsonapi.org) implementation in the slim 4",
+    "keywords": ["slim","framework","middleware","api", "json"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Benycode"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "fig/http-message-util": "^1.1",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "oligus/jad": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenyCode\\Slim\\SlimJadMiddleware\\": "src"
+        }
+    },
+	"config": {
+        "preferred-install": "dist",
+    }
+}
