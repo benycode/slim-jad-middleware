@@ -1,4 +1,4 @@
-# [Jad](https://github.com/oligus/jad) (jsonapi.org) implementation in Slim 4 framework
+# [JAD](https://github.com/oligus/jad) (jsonapi.org) implementation in Slim 4 framework
 
 Simplest way to have JSON:API endpoint in your Slim project
 
