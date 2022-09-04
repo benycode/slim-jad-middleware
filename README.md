@@ -79,8 +79,8 @@ use BenyCode\Slim\JadMiddleware\JsonApiMiddleware;
 $app
   ...
   ->add(JsonApiMiddleware::class)
-  ...
   ;
+  ...
 ```
 
 Doctrine config:
