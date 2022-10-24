@@ -15,7 +15,7 @@
         "fig/http-message-util": "^1.1",
         "nyholm/psr7": "^1.4",
         "nyholm/psr7-server": "^1.0",
-        "oligus/jad": "^1.1"
+        "oligus/jad": "dev-master"
     },
     "autoload": {
         "psr-4": {
